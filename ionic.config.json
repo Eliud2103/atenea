@@ -1,0 +1,7 @@
+{
+  "name": "front-atenea",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
