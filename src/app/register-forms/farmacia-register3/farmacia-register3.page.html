@@ -1,0 +1,29 @@
+<ion-header [translucent]="true" class="header-container">
+  <img src=".../../../../../assets/forms.jpg" alt="">
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-grid class="grid-center">
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-xs="12" size-sm="8" size-md="6" size-lg="6">
+        <div class="container">
+          <h3>Último Paso</h3>
+
+          <form [formGroup]="registerForm" (ngSubmit)="registerFarmacia()">
+            <ion-label>Email</ion-label> <br><br>
+            <ion-input formControlName="email" type="email" placeholder="   @gmail.com" required></ion-input> <br>
+
+            <ion-label>Descripción de la Farmacia</ion-label> <br><br>
+            <ion-textarea formControlName="descripcionF" placeholder="Escribe una breve descripción de la farmacia..." required></ion-textarea> <br>
+
+            <ion-button [disabled]="isFormInvalid()" expand="block" class="register-button" type="submit">
+              Registrar Farmacia
+            </ion-button>
+          </form>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
