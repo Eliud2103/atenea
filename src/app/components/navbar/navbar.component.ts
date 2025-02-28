@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonCard, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonMenuButton, IonItem, IonLabel, IonList, IonMenu, IonCardContent } from '@ionic/angular/standalone';
+import { IonCard, IonCardHeader,IonSearchbar, IonCardTitle, IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonMenuButton, IonItem, IonLabel, IonList, IonMenu, IonCardContent } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-navbar',
@@ -19,7 +19,8 @@ import { IonCard, IonCardHeader, IonCardTitle, IonContent, IonHeader, IonTitle, 
     IonLabel,
     IonList,
     IonMenu,
-    IonCardContent
+    IonCardContent,
+    IonSearchbar
 
   ]
 })

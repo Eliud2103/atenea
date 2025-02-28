@@ -3,5 +3,15 @@ button{
   width: 100px;
 }
 .form-control{
-  width: 600px;
+  width: 300px;
+}
+ion-searchbar{
+color: black;
+height: auto;
+
+}
+.search-white {
+  --background: white;
+  --color: black;
+  --placeholder-color: gray;
 }
