@@ -110,6 +110,26 @@ export const routes: Routes = [
     path: 'lab-register4',
     loadComponent: () => import('./register_forms/laboratorio/lab-register4/lab-register4.page').then( m => m.LabRegister4Page)
   },
+  {
+    path: 'hos-cards',
+    loadComponent: () => import('./pages/cards/hos-cards/hos-cards.page').then( m => m.HosCardsPage)
+  },
+  {
+    path: 'far-cards',
+    loadComponent: () => import('./pages/cards/far-cards/far-cards.page').then( m => m.FarCardsPage)
+  },
+  {
+    path: 'cli-cards',
+    loadComponent: () => import('./pages/cards/cli-cards/cli-cards.page').then( m => m.CliCardsPage)
+  },
+  {
+    path: 'par-cards',
+    loadComponent: () => import('./pages/cards/par-cards/par-cards.page').then( m => m.ParCardsPage)
+  },
+  {
+    path: 'lab-cards',
+    loadComponent: () => import('./pages/cards/lab-cards/lab-cards.page').then( m => m.LabCardsPage)
+  },
 
 
 ];
