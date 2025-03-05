@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # compiled output
 /dist
 /node_modules
@@ -21,19 +22,67 @@ lerna-debug.log*
 
 # IDEs and editors
 /.idea
+=======
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+
+*.log
+log.txt
+
+
+/.sourcemaps
+/.versions
+/coverage
+
+# Ionic
+/.ionic
+/www
+/platforms
+/plugins
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+>>>>>>> 5addf3d28df915f8dcd1740eaebe74c4b7f31290
 .project
 .classpath
 .c9/
 *.launch
 .settings/
+<<<<<<< HEAD
 *.sublime-workspace
 
 # IDE - VSCode
+=======
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+>>>>>>> 5addf3d28df915f8dcd1740eaebe74c4b7f31290
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 
 # dotenv environment variable files
 .env
@@ -54,3 +103,23 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+=======
+.history/*
+
+
+# Miscellaneous
+/.angular
+/.angular/cache
+.sass-cache/
+/.nx
+/.nx/cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+>>>>>>> 5addf3d28df915f8dcd1740eaebe74c4b7f31290

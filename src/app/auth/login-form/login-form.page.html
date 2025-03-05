@@ -1,0 +1,27 @@
+<app-navbar-forms></app-navbar-forms>
+<ion-content [fullscreen]="true" class="custom-content">
+  <ion-grid class="grid-center">
+    <ion-row class="ion-justify-content-center">
+      <ion-col size-xs="12" size-sm="8" size-md="6" size-lg="6">
+        <div class="container">
+          <h3>Inicio de Sesión</h3>
+          <p>Inicia sesión en tu cuenta de <strong>Atenea</strong></p>
+
+          <form (submit)="login()">
+            <ion-label>Email</ion-label> <br> <br>
+            <ion-input type="email" placeholder="   @gmail.com" name="email" required></ion-input> <br>
+
+            <ion-label>Contraseña</ion-label> <br> <br>
+            <ion-input type="password" placeholder="   Introduce tu contraseña" name="password" required></ion-input> <br><br>
+
+            <ion-button expand="block" class="login-button" type="submit">Iniciar Sesión</ion-button> <br>
+          </form> <br>
+
+          <p class="register-text">
+            ¿No tienes una cuenta? <a href="#">Regístrate</a>
+          </p>
+        </div> <br>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
